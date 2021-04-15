@@ -7,7 +7,7 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 1  #only mono
 RATE = 16000  
 CHUNK = 1024  #확인 필요
-RECORD_SECONDS = 10 #10초 녹음
+RECORD_SECONDS = 60 #초단위 녹음
 
 WAVE_OUTPUT_FILENAME = "file.wav"
  
